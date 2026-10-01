@@ -7,7 +7,7 @@
 - [x] Legacy archive preserves browser local and surviving session records; automatic conversion intentionally absent.
 - [x] 22 persistence regressions pass. Browser synthetic acceptance covers inventory/service/activities, stale tab, corruption recovery, backup cancellation/replacement, offline restart and no outbound requests.
 - [x] Production build/typecheck and HTML/manifest service-worker version regressions pass.
-- [x] Desktop and mobile render review completed, including narrow 320px viewport. Real-device iOS/Android testing remains outstanding; browser emulation is not device certification.
+- [x] Desktop and mobile render review completed, including narrow 320px viewport. iOS 26.5 Simulator Safari navigation and persisted inventory after server shutdown, browser restart and explicit reload passed. Physical iOS/Android and Android runtime testing remain outstanding.
 - [x] Intended source snapshot reviewed independently for private records, secrets, cloud/paid paths and dependency licensing. Old Git history is excluded.
 - [x] Runtime third-party notices accompany source and built output; dependency inventory included.
 - [x] Owner approved Apache-2.0 with Ni Biashara LLC as copyright holder on 2026-10-01; LICENSE and NOTICE applied to this sanitized edition.
