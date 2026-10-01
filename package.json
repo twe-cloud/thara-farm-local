@@ -1,0 +1,28 @@
+{
+  "name": "thara-farm-local",
+  "private": true,
+  "version": "0.4.0-rc.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -p tsconfig.app.json --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --experimental-strip-types tests/operations.test.mjs"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node@4.60.2"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~6.0.2",
+    "vite": "^6.4.2"
+  },
+  "license": "Apache-2.0"
+}

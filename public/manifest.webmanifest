@@ -1,0 +1,5 @@
+{
+  "name": "Thara Farm", "short_name": "Thara",
+  "description": "Free local farm inventory, equipment and activity records.",
+  "start_url": "/", "display": "standalone", "background_color": "#10271e", "theme_color": "#10271e"
+}
